@@ -1,6 +1,6 @@
 {
     "name": "mercado_libre_scraper",
-    "version": "1.0.0",
+    "version": "1.2.1",
     "description": "",
     "main": "index.js",
     "scripts": {
@@ -22,6 +22,7 @@
     "homepage": "https://github.com/juank8911/Mercado_Libre_scrap#readme",
     "dependencies": {
         "express": "^4.17.3",
+        "mongoose": "^6.1.2",
         "puppeteer": "^13.4.1"
     }
 }

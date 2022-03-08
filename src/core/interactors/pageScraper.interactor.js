@@ -1,4 +1,5 @@
 const { json } = require("express/lib/response");
+const consDAO = require("../../dataSources/consultas.datasource");
 
 // Busca los dispositivos en la pagina de mercado libre
 const pruebaClick = {
