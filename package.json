@@ -1,0 +1,19 @@
+{
+  "name": "mercado_libre_scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juank8911/Mercado_Libre_scrap.git"
+  },
+  "author": "Ing Juan Guzman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juank8911/Mercado_Libre_scrap/issues"
+  },
+  "homepage": "https://github.com/juank8911/Mercado_Libre_scrap#readme"
+}
