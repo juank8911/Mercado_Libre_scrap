@@ -17,4 +17,14 @@ consDAO.saveConsul = async(lista, callback) => {
     });
 };
 
+consDAO.getConsultas = async(callback) => {
+    ConsModel.find({}, { cant_productos: 1, created: 1 }, (err, consulta) => {
+        if (err) throw err;
+        else {
+            console.log(consulta);
+            callback(null, consulta);
+        }
+    });
+};
+
 module.exports = consDAO;

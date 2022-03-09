@@ -12,7 +12,7 @@ const consultaSchema = new mongoose.Schema({
         type: Date,
         default: Date.now,
     },
-});
+}, { colletion: "consultas" });
 
 const Consulta = mongoose.model("Consulta", consultaSchema);
 

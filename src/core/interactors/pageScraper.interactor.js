@@ -78,6 +78,7 @@ const pruebaClick = {
         }
         console.log("final del ciclo");
         // console.log(divaces);
+        browser.close();
         return divaces;
     },
 };
