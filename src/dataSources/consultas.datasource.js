@@ -27,4 +27,14 @@ consDAO.getConsultas = async(callback) => {
     });
 };
 
+consDAO.getItems = async(id, callback) => {
+    console.log(id);
+    ConsModel.findById(id, (err, items) => {
+        if (err) throw err;
+        else {
+            callback(null, items);
+        }
+    });
+};
+
 module.exports = consDAO;
