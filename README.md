@@ -21,14 +21,19 @@ La **arquitectura hexagonal** es una **arquitectura** del software en la que se 
 
 POST
 
-***/scraping*** . *realiza la busqueda en las 5 primeras paginas de mercado libre con lasespecificaciones requeridas en el desafio.*
+***/scraping*** 
+
+realiza la busqueda en las 5 primeras paginas de mercado libre con lasespecificaciones requeridas en el desafio.*
 devuelve un json con la fecha, hora, la cantidad de items encontrados y los items encontrados.
 
 GET
-***/scraping*** busca la coleccion de las consultas realizadas en la base de datos.
+***/scraping*** 
+
+busca la coleccion de las consultas realizadas en la base de datos.
 Devuelve un json con las consultas  ye realizadas, 
 
 GET
-***/items***
+***/items?id={{idconsulta}}***
+
 **parametros:** query  id de la consulta a buscar en la collecion, 
 devuelve un son con el id, fecha, hora cantidad de productos y los productos  que se encontraron.  
